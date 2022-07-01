@@ -3,6 +3,9 @@
 
 /**
 * main - Entry point
+* filedes - int
+* buf - char
+* nbyte - unsigned int
 * Return: Always 1 (Success)
 */
 int write(int filedes, const char *buf, unsigned int nbyte);
