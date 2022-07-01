@@ -3,9 +3,9 @@
 
 /**
 * main - Entry point
-* filedes - int
-* buf - char
-* nbyte - unsigned int
+* Description: 'filedes is an int'
+* Description: 'buf is a char'
+* Description: 'nbyte is an unsigned int'
 * Return: Always 1 (Success)
 */
 int write(int filedes, const char *buf, unsigned int nbyte);
