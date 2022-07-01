@@ -3,9 +3,9 @@
 
 /**
 * main - Entry point
-* Description: 'filedes is an int'
-* Description: 'buf is a char'
-* Description: 'nbyte is an unsigned int'
+* @filedes: the file to be checked
+* @buf: buf
+* @nbyte: number of bytes
 * Return: Always 1 (Success)
 */
 int write(int filedes, const char *buf, unsigned int nbyte);
