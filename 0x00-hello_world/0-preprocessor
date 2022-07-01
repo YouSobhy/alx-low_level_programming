@@ -1,6 +1,2 @@
-#include <studio.h>
-/* This script runs a C file through the preproccesor and saves the results into another file */
-int main(void)
-{
-	gcc -E $CFILE -o c ;
-}
+#!/bin/bash
+gcc -E $CFILE -o c
